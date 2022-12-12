@@ -18,9 +18,6 @@ jobs:
         with:
           dotnet-version: 6.0.x
 
-      - name: Build Project for release
-        run: dotnet build --configuration release
-
       - name: Install Nuget
         uses: nuget/setup-nuget@v1
         with:
